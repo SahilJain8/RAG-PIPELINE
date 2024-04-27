@@ -21,7 +21,7 @@ The project utilizes the following components:
 1. **Clone the Repository**:
 
 ```bash
-git clone https://github.com/yourusername/rag-model-for-qa.git
+git clone https://github.com/SahilJain8/RAG-PIPELINE
 cd RAG-PIPELINE
 ```
 
@@ -29,5 +29,12 @@ cd RAG-PIPELINE
 ```Bash
 pip install -r requirements.txt
 ```
+
+
+2. **Run the project**
+```Bash
+python main.py
+```
+
 # Credits
 This project is inspired by the works of Stephen Hawking and builds upon research in natural language processing. The RAG model implementation leverages open-source libraries and frameworks.
