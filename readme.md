@@ -35,6 +35,12 @@ pip install -r requirements.txt
 ```Bash
 python main.py
 ```
+3.**Command Line Arguments**
+```Command-line Arguments:
+--model_name: Specifies the name of the model to be used. Defaults to 'google/gemma-2b-it'.
+--encoding_model_name: Specifies the name of the encoding model. Defaults to 'all-mpnet-base-v2'.
+--use_quantization: Specifies whether to use quantization or not. Defaults to True.
+```
 
 # Credits
 This project is inspired by the works of Stephen Hawking and builds upon research in natural language processing. The RAG model implementation leverages open-source libraries and frameworks.
