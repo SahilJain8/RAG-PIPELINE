@@ -10,7 +10,7 @@ The project utilizes the following components:
 
 - **Model Setup**: Two powerful models are utilized:
   - **Embedding Model**: `all-mpnet-base-v2` is used for encoding text into embeddings.
-  - **Generative Model**: The `lama` model is employed for language modeling and response generation within the RAG framework.
+  - **Generative Model**: `Gemma` model is employed for language modeling and response generation within the RAG framework.
 
 - **Query and Retrieval**: Users can input queries related to the content of the books. FAISS facilitates fast and efficient vector search to retrieve relevant text chunks from the dataset.
 

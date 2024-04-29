@@ -42,7 +42,7 @@ def main():
 
         ans = rag_model.generate(prompt)
 
-        print(ans.replace("<s>", " ").replace("</s>", " "))
+        print(ans)
         end_time = time.time()
         print(f"[INFO] Runtime: {round(end_time - start_time, 2)} seconds")
 
